@@ -1,0 +1,12 @@
+/* fonts */
+@font-face {
+	font-family: 'Gotham';
+	src: url('../fonts/Gotham-Black.woff2') format('woff2'),
+	     url('../fonts/Gotham-Black.woff') format('woff'),
+	     url('../fonts/Gotham-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+	}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');

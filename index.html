@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+
+        <title>Вкуснетто</title>
+
+        <meta name="description" content="Описание для главной страницы сайта">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+        <link rel="icon" href="favicon.ico">
+
+    </head>
+    <body>
+
+    <!-- wrapper Start -->
+    <div class="wrapper">
+        
+        <!-- header Start -->
+        <header class="header">
+            <div class="header__top-panel">
+                <div class="container">
+                    <div class="header__top-in">
+                        <div class="header__col">
+                            <span class="mobile-menu-btn"></span>
+                            <a href="#" class="header__logo">
+                                <img src="img/icons/main-logo.svg" alt="Вкуснетто">
+                            </a>
+                            <div class="search-form">
+                                <form>
+                                    <input type="text">
+                                    <button type="submit" class="search-form__btn">Поиск</button>
+                                </form>
+                            </div>
+                            <span class="city">
+                                <img src="img/icons/location.svg" alt="icon">
+                                <span class="city__text">Москва</span>
+                            </span>
+                        </div>
+                        <div class="user-panel">
+                            <a href="#" class="user-panel__item favourites-link">
+                                <span class="user-panel__icon">
+                                    <img src="img/icons/favourites.svg" alt="icon">
+                                </span>
+                                <span class="user-panel__text">Избранное</span>
+                            </a>
+                            <a href="#" class="user-panel__item personal-account-link">
+                                <span class="user-panel__icon">
+                                    <img src="img/icons/personal-account.svg" alt="icon">
+                                </span>
+                                <span class="user-panel__text">Вход</span>
+                            </a>
+                            <a href="#" class="user-panel__item shopping-cart-link">
+                                <span class="user-panel__number">2</span>
+                                <span class="user-panel__icon">
+                                    <img src="img/icons/shopping-cart.svg" alt="icon">
+                                </span>
+                                <span class="user-panel__text">Корзина</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom-panel">
+                <div class="container">
+                    <div class="header__bottom-in">
+                        <nav class="main-nav">
+                            <ul>
+                                <li class="main-nav__catalog">
+                                    <span>Каталог</span>
+                                </li>
+                                <li>
+                                    <a href="#">Акции</a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты</a>
+                                </li>
+                                <li class="active">
+                                    <a href="#">О нас</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="contact-us">
+                            <div class="contact-us__icon">
+                                <img src="img/icons/phone.svg" alt="icon">
+                            </div>
+                            <div class="contact-us__description">
+                                <p class="contact-us__text">Есть вопрос? Свяжитесь с нами</p>
+                                <a href="tel:+73512173200" class="contact-us__phone">+7(351) 217-32-00</a>
+                            </div>
+                            <a href="tel:+73512173200" class="contact-us__mobile-text">Свяжитесь с нами</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-dropdown">
+                <div class="catalog-dropdown__in">
+                    <div class="catalog-tabs">
+                        <nav class="catalog-tabs__nav">
+                            <ul>
+                                <li class="active">Новинки</li>
+                                <li>Хиты</li>
+                                <li>Пищевые ингредиенты</li>
+                                <li>Декор и украшения</li>
+                                <li>Упаковка</li>
+                                <li>Инструменты и инвентарь</li>
+                                <li>Профессиональная химия</li>
+                            </ul>
+                        </nav>
+                        <div class="catalog-tabs__content">
+                            <div class="catalog-tabs__item active">
+                                <div class="catalog-tabs__info">
+                                    <div class="catalog-tabs__col">
+                                        <div class="catalog-info">
+                                            <div class="catalog-info__img">
+                                                <img src="img/photos/catalog-info-img.jpg" alt="img">
+                                            </div>
+                                            <ul class="catalog-info__list">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Готовые смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Хлебные смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Кондитерские смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сухие смеси для кремов, суфле и начинок</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сухие белковые смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для  мороженого, десертов и молочных коктейлей</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для производства снеков</a>
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                            <span class="catalog-info__more-link">Ещё</span>
+                                        </div>
+                                        <div class="catalog-info">
+                                            <div class="catalog-info__img">
+                                                <img src="img/photos/catalog-info-img.jpg" alt="img">
+                                            </div>
+                                            <ul class="catalog-info__list">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Посыпки и фигурки</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Рисовое драже</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Шарики</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Блестки</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сухие белковые смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для  мороженого, десертов и молочных коктейлей</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для производства снеков</a>
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                            <span class="catalog-info__more-link">Ещё</span>
+                                        </div>
+                                        <div class="catalog-info">
+                                            <div class="catalog-info__img">
+                                                <img src="img/photos/catalog-info-img.jpg" alt="img">
+                                            </div>
+                                            <ul class="catalog-info__list">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Готовые смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Хлебные смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Кондитерские смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сухие смеси для кремов, суфле и начинок</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сухие белковые смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для  мороженого, десертов и молочных коктейлей</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для производства снеков</a>
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                            <span class="catalog-info__more-link">Ещё</span>
+                                        </div>
+                                        <div class="catalog-info">
+                                            <div class="catalog-info__img">
+                                                <img src="img/photos/catalog-info-img.jpg" alt="img">
+                                            </div>
+                                            <ul class="catalog-info__list">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Посыпки и фигурки</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Рисовое драже</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Шарики</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Блестки</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сухие белковые смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для  мороженого, десертов и молочных коктейлей</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для производства снеков</a>
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                            <span class="catalog-info__more-link">Ещё</span>
+                                        </div>
+                                        <div class="catalog-info">
+                                            <div class="catalog-info__img">
+                                                <img src="img/photos/catalog-info-img.jpg" alt="img">
+                                            </div>
+                                            <ul class="catalog-info__list">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Готовые смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Хлебные смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Кондитерские смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сухие смеси для кремов, суфле и начинок</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сухие белковые смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для  мороженого, десертов и молочных коктейлей</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для производства снеков</a>
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                            <span class="catalog-info__more-link">Ещё</span>
+                                        </div>
+                                        <div class="catalog-info">
+                                            <div class="catalog-info__img">
+                                                <img src="img/photos/catalog-info-img.jpg" alt="img">
+                                            </div>
+                                            <ul class="catalog-info__list">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Посыпки и фигурки</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Рисовое драже</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Шарики</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Блестки</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сухие белковые смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для  мороженого, десертов и молочных коктейлей</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для производства снеков</a>
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                            <span class="catalog-info__more-link">Ещё</span>
+                                        </div>
+                                        <div class="catalog-info">
+                                            <div class="catalog-info__img">
+                                                <img src="img/photos/catalog-info-img.jpg" alt="img">
+                                            </div>
+                                            <ul class="catalog-info__list">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Готовые смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Хлебные смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Кондитерские смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сухие смеси для кремов, суфле и начинок</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сухие белковые смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для  мороженого, десертов и молочных коктейлей</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для производства снеков</a>
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                            <span class="catalog-info__more-link">Ещё</span>
+                                        </div>
+                                        <div class="catalog-info">
+                                            <div class="catalog-info__img">
+                                                <img src="img/photos/catalog-info-img.jpg" alt="img">
+                                            </div>
+                                            <ul class="catalog-info__list">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Посыпки и фигурки</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Рисовое драже</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Шарики</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Блестки</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сухие белковые смеси</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для  мороженого, десертов и молочных коктейлей</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Для производства снеков</a>
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                            <span class="catalog-info__more-link">Ещё</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog-tabs__item">
+                                <div class="catalog-tabs__info">
+                                    2
+                                </div>
+                            </div>
+                            <div class="catalog-tabs__item">
+                                <div class="catalog-tabs__info">
+                                    3
+                                </div>
+                            </div>
+                            <div class="catalog-tabs__item">
+                                <div class="catalog-tabs__info">
+                                    4
+                                </div>
+                            </div>
+                            <div class="catalog-tabs__item">
+                                <div class="catalog-tabs__info">
+                                    5
+                                </div>
+                            </div>
+                            <div class="catalog-tabs__item">
+                                <div class="catalog-tabs__info">
+                                    6
+                                </div>
+                            </div>
+                            <div class="catalog-tabs__item">
+                                <div class="catalog-tabs__info">
+                                    7
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+        
+        <!-- main Start -->
+        <main class="main">
+            <section class="hero-section">
+                <div class="hero-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="container">
+                                <div class="hero">
+                                    <div class="hero__description">
+                                        <h2 class="hero__title">Фруктово-ягодные начинки</h2>
+                                        <p><span>20 %</span> скидки на все виды начинок</p>
+                                        <div class="hero__btns-panel">
+                                            <a href="#" class="btn btn--black">Фруктовые начинки</a>
+                                            <a href="#" class="btn btn--black">Ягодные начинки</a>
+                                        </div>
+                                    </div>
+                                    <div class="hero__img">
+                                        <a href="#" class="btn btn--big">Смотреть каталог</a>
+                                        <img src="img/photos/hero-img-1.jpg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="container">
+                                <div class="hero">
+                                    <div class="hero__description">
+                                        <h2 class="hero__title">Посыпки и фигурки</h2>
+                                        <p><span>30 %</span> скидки на все виды посыпок и фигурок</p>
+                                        <div class="hero__btns-panel">
+                                            <a href="#" class="btn btn--black">Посыпки</a>
+                                            <a href="#" class="btn btn--black">Фигурки</a>
+                                        </div>
+                                    </div>
+                                    <div class="hero__img">
+                                        <img src="img/photos/hero-img-2.jpg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="container">
+                                <div class="hero">
+                                    <div class="hero__description">
+                                        <h2 class="hero__title">Топпинги и сиропы</h2>
+                                        <p><span>30 %</span> скидки на все виды топпингов и сиропов</p>
+                                        <div class="hero__btns-panel">
+                                            <a href="#" class="btn btn--black">Топпинги</a>
+                                            <a href="#" class="btn btn--black">Сиропы</a>
+                                        </div>
+                                    </div>
+                                    <div class="hero__img">
+                                        <img src="img/photos/hero-img-3.jpg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-slider__nav-panel">
+                        <div class="container">
+                            <div class="hero-slider__btns">
+                                <div class="swiper-pagination"></div>
+                                <div class="hero-slider__arrows">
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about-section">
+                <div class="container">
+                    <div class="about-company">
+                        <div class="about-company__img-wrap">
+                            <div class="about-company__img">
+                                <img src="img/photos/about-img.jpg" alt="img">
+                            </div>
+                        </div>
+                        <div class="about-company__description">
+                            <h3 class="about-company__title">Нам доверяют более 20 лет</h3>
+                            <p>Торговая компания «Самоцвет» — надёжный поставщик ингредиентов и сырья для пищевой промышленности. Более 20 лет мы работаем с предприятиями и мастерами, предлагая качественные продукты от проверенных производителей.</p>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- main end -->
+
+    </div>
+    <!-- wrapper end -->
+
+    <!-- Plugin scripts -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="js/scripts.js"></script>
+    
+    </body>
+</html>
