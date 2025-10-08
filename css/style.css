@@ -441,7 +441,7 @@ ul, ol {
   transition: 0.5s all;
 }
 .main-nav a:hover {
-  border-color: var(--tertiary-border-color);
+  border-color: var(--secondary-background-color);
   background: var(--secondary-background-color);
 }
 
