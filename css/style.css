@@ -429,7 +429,7 @@ ul, ol {
   line-height: 26px;
 }
 .main-nav li.active a {
-  border-color: var(--tertiary-border-color);
+  border-color: var(--secondary-background-color);
   background: var(--secondary-background-color);
 }
 .main-nav a {
